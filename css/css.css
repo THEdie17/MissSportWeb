@@ -1,0 +1,183 @@
+
+    /*Header-----------------------*/
+    #logo{
+        width: 180px;
+    }
+    #tittle{
+        margin-top: 1%;
+        width: 250px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    header{
+        background-color: white;
+        width: 101%;
+    }
+    #links{
+        margin-top: 5%;
+        font-size: 200%;
+        width: 500px;
+    }
+
+    #button-link{
+        width: 180px;
+    }
+    #button-link a{
+        color: #f59700;
+    }
+    #button-link :hover{
+        color: #323e49;
+    }
+    #button-link :active{
+        color: purple;
+    }
+
+
+    /*Desplegable------------------*/
+    #menu_logo{
+        width: 30px;
+    }
+    #menu {
+        width: 18%;
+        text-align: center;
+        margin-top: 2%;
+    }
+    #menu-button{
+        border: 3px solid #f59700;
+    }
+    #menu ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0; 
+    }
+    #menu ul li {
+        float: left;
+        min-height: 1px;
+        vertical-align: middle; 
+    }
+    #menu ul li:hover {
+        position: relative;
+        z-index: 599;
+        cursor: default; 
+    }
+    #menu ul ul {
+        visibility: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 598;
+        width: 100%; 
+    }
+    #menu ul li:hover > ul {
+        visibility: visible; 
+    }
+    #menu ul ul {
+        top: 0;
+        left: 100%; 
+    }
+    #menu ul li {
+        float: none; 
+    }
+    #menu a {
+        display: inline-block;
+        font-size: 12px;
+        text-decoration: none; 
+    }
+    #menu .has-sub {
+        position: relative; 
+    }
+    #menu ul, #menu li {
+        width: 100%; 
+    }
+    #menu li {
+        background: #323e49;
+    }
+    #menu li:hover {
+        background: #8497ac; 
+    }
+    #menu a {
+        color: #f59700;
+        line-height: 160%;
+        padding: 11px 28px 11px 28px;
+    }
+    #menu ul ul li {
+        background: #323e49;
+        border: #f59700 solid 1px;
+    }
+    #menu ul ul li:hover {
+        background: #8497ac;
+        border: black solid 2px;
+    }
+    #menu ul ul li a:hover {
+        color: black;
+    }
+    #menu .fa-angle-right {
+        float: right;
+    }
+    /*Fin Desplegable*/
+
+
+    /*Body---------------------------------------------------*/
+    #body{
+        background-color: #323e49;
+        color: #f59700;
+        height: auto;
+    }
+
+    /*Pagina Principal*/
+    #deportes{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #deportes img{
+        width: 330px;
+        border: solid 2px #f59700;
+        border-radius: 10%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+        margin-left: 8%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #deportes a{
+        width: 400px;
+    }
+    #deportes img:hover{
+        border-radius: 15%;
+        transition: 0.3s;
+        border-color: #8497ac;
+    }
+
+    /*Contact*/
+    #contact_us{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #contact_us h3{
+        font-size: 130%;
+    }
+
+    /*Paginas de jugadoras*/
+    #jugadoras{
+        margin-bottom: 50px;
+    }
+    #jugadoras h2{
+        color: #f59700;
+    }
+
+    #jugadoras h1{
+        color: #8497ac;
+    }
+    /*Footer*/
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: #f59700;
+        background-color: black;
+    }
